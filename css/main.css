@@ -60,11 +60,11 @@ img {
   color: var(--color-link);
 }
 
-.logo .up {
+.logo__up {
   color: var(--color-logo);
 }
 
-.logo .down {
+.logo__down {
   margin-right: -93px;
   color: var(--color-slogan);
 }
@@ -266,13 +266,13 @@ img {
   margin: 0 0 0 -30px;
 }
 
-.specifical .line {
+.specifical__line {
   -ms-flex-preferred-size: calc(25% - 30px);
       flex-basis: calc(25% - 30px);
   margin-left: 30px;
 }
 
-.line-icon {
+.specifical__line--icon {
   width: 270px;
   height: 120px;
   margin-bottom: 30px;
@@ -280,7 +280,7 @@ img {
   border-radius: 4px;
 }
 
-.specifical .titel-ind {
+.specifical__titel-ind {
   margin: 0 0 10px 0;
   padding: 0;
   font-size: 14px;
@@ -290,7 +290,7 @@ img {
   color: var(--color-general);
 }
 
-.specifical .text-ind {
+.specifical__text-ind {
   margin: 0;
   padding: 0;
   width: 270px;
@@ -318,7 +318,7 @@ img {
   padding: 0;
 }
 
-.work .item {
+.work__item {
   -ms-flex-preferred-size: calc(33.3333333333% - 30px);
       flex-basis: calc(33.3333333333% - 30px);
   margin-left: 30px;
@@ -347,7 +347,7 @@ img {
   padding: 0;
 }
 
-.label-text {
+.label__text {
   color: var(--color-label);
   font-weight: 700;
   font-size: 14px;
@@ -465,7 +465,7 @@ img {
   list-style: none;
 }
 
-.klient .icon {
+.klient__icon {
   width: 170px;
   height: 92px;
   border: 1px solid var(--color-border-klient);
@@ -479,8 +479,8 @@ img {
   fill: currentColor;
 }
 
-.klient .icon:hover,
-.klient .icon:focus {
+.klient__icon:hover,
+.klient__icon:focus {
   color: var(--color-link);
   border: 1px solid var(--color-link);
 }

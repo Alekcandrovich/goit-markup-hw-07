@@ -3,7 +3,7 @@
   margin: 0 0 0 -30px;
   padding: 0;
 }
-.work .item {
+.work__item {
   flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
 }
@@ -23,7 +23,7 @@
   margin: 0;
   padding: 0;
 }
-.label-text {
+.label__text {
   color: var(--color-label);
   font-weight: 700;
   font-size: 14px;

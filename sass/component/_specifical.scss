@@ -3,11 +3,11 @@
   padding: 0;
   margin: 0 0 0 -30px;
 }
-.specifical .line {
+.specifical__line {
   flex-basis: calc(100% / 4 - 30px);
   margin-left: 30px;
 }
-.line-icon {
+.specifical__line--icon {
   width: 270px;
   height: 120px;
   margin-bottom: 30px;
@@ -15,7 +15,7 @@
   border-radius: 4px;
 }
 
-.specifical .titel-ind {
+.specifical__titel-ind {
   margin: 0 0 10px 0;
   padding: 0;
 
@@ -26,7 +26,7 @@
 
   color: var(--color-general);
 }
-.specifical .text-ind {
+.specifical__text-ind {
   margin: 0;
   padding: 0;
 

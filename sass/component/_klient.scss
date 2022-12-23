@@ -5,7 +5,7 @@
   padding: 0;
   list-style: none;
 }
-.klient .icon {
+.klient__icon {
   width: 170px;
   height: 92px;
   border: 1px solid var(--color-border-klient);
@@ -18,8 +18,8 @@
 .icon-klient {
   fill: currentColor;
 }
-.klient .icon:hover,
-.klient .icon:focus {
+.klient__icon:hover,
+.klient__icon:focus {
   color: var(--color-link);
   border: 1px solid var(--color-link);
 }
