@@ -26,74 +26,72 @@
         <nav>
 <!--navigation-->
           <ul class="nav dot">
-            <li class="nav item"><a href="./index.html" class="link current">Студія</a></li>
-            <li class="nav item"><a href="./portfolio.html" class="link">Портфоліо</a></li>
-            <li class="nav item"><a href="./index.html" class="link">Контакти</a></li>
+            <li class="nav__item"><a href="./index.html" class="nav__link nav__link--current">Студія</a></li>
+            <li class="nav__item"><a href="./portfolio.html" class="nav__link">Портфоліо</a></li>
+            <li class="nav__item"><a href="./index.html" class="nav__link">Контакти</a></li>
           </ul>
-        </nav>
+          </nav>
 <!--contact-->
         <ul class="contact dot">
-          <li class="nav item">
-            <a href="mailto:info@devstudio.com" class="link contact-icon">
+          <li class="nav__item">
+            <a href="mailto:info@devstudio.com" class="nav__link contact__icon">
               <svg class="envelope">
                 <use href="./images/icons.svg#icon-envelope"></use>
               </svg>info@devstudio.com</a>
           </li>
-          <li class="nav item">
-            <a href="tel:+380961111111" class="link contact-icon">
+          <li class="nav__item">
+            <a href="tel:+380961111111" class="nav__link contact__icon">
               <svg class="smartphone">
                 <use href="./images/icons.svg#icon-smartphone"></use>
-              </svg>+38 096 111 11 11</a>            
+              </svg>+38 096 111 11 11</a>
           </li>
         </ul>
       </div>
     </header>
     <main>
 <!--content-->
-      <div class="overlay-ind">
         <section class="section slogan">
           <div class="container">
-            <h1 class="slogan-titel">Ефективні рішення для<br />вашого бізнесу</h1>
-            <button data-modal-open type="button" class="button-order">Замовити послугу</button>
+            <h1 class="slogan__titel">Ефективні рішення для<br />вашого бізнесу</h1>
+            <button data-modal-open type="button" class="slogan__button">Замовити послугу</button>
           </div>
         </section>
-      </div>
       <section class="section">
         <div class="container">
           <ul class="specifical dot">
             <li class="specifical__line">
-              <svg class="specifical__line--icon">
+              <svg class="specifical__icon">
                 <use href="./images/icons.svg#icon-group-1"></use>
               </svg>
-              <h3 class="specifical__titel-ind">УВАГА ДО ДЕТАЛЕЙ</h3>
-              <p class="specifical__text-ind">
+              <h3 class="specifical__titel">УВАГА ДО ДЕТАЛЕЙ</h3>
+              <p class="specifical__text">
                 Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.
               </p>
             </li>
             <li class="specifical__line">
-              <svg class="specifical__line--icon">
+              <svg class="specifical__icon">
                 <use href="./images/icons.svg#icon-group-2"></use>
               </svg>
-              <h3 class="specifical__titel-ind">ПУНКТУАЛЬНІСТЬ</h3>
-              <p class="specifical__text-ind">
+              <h3 class="specifical__titel">ПУНКТУАЛЬНІСТЬ</h3>
+              <p class="specifical__text">
                 Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.
               </p>
             </li>
             <li class="specifical__line">
-              <svg class="specifical__line--icon">
+              <svg class="specifical__icon">
                 <use href="./images/icons.svg#icon-group-3"></use>
               </svg>
-              <h3 class="specifical__titel-ind">ПЛАНУВАННЯ</h3>
-              <p class="specifical__text-ind">
+              <h3 class="specifical__titel">ПЛАНУВАННЯ</h3>
+              <p class="specifical__text">
                 Так само консультація з широким активом значною мірою зумовлює.
               </p>
             </li>
             <li class="specifical__line">
-              <svg class="specifical__line--icon">
+              <svg class="specifical__icon">
                 <use href="./images/icons.svg#icon-group-4"></use>
               </svg>
-              <h3 class="specifical__titel-ind">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-              <p class="specifical__text-ind">
+              <h3 class="specifical__titel">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+              <p class="specifical__text">
                 Значимість цих проблем настільки очевидна, що реалізація планових завдань.
               </p>
             </li>
@@ -104,7 +102,7 @@
         <div class="container">
           <h2 class="titels">Чим ми займаємося</h2>
           <ul class="work dot">
-            <li class="work work__item">
+            <li class="work__item">
               <div class="label-thumb">
                 <img src="./images/jpg-1.jpg" alt="Десктопні додатки" width="370" />
                   <div class="label">
@@ -112,7 +110,7 @@
                   </div>
               </div>
             </li>
-            <li class="work work__item">
+            <li class="work__item">
               <div class="label-thumb">
                 <img src="./images/jpg-2.jpg" alt="Мобільні додатки" width="370" />
                   <div class="label">
@@ -120,7 +118,7 @@
                   </div>
               </div>
             </li>
-            <li class="work work__item">
+            <li class="work__item">
               <div class="label-thumb">
                 <img src="./images/jpg-3.jpg" alt="Дизайнерські рішення" width="370" />
                   <div class="label">
@@ -333,7 +331,7 @@
           <p class="mailing-titel">Підпишіться на розсилку</p>
         <form class="mailing-form">         
           <label class="mailing">
-            <input type="mail" name="Підпишіться на розсилку" placeholder="E-mail" />
+            <input type="email" name="Підпишіться на розсилку" placeholder="E-mail" />
           </label>
           <button type="submit" class="button-send">Підписатися
             <svg class="icon-send">
@@ -356,7 +354,7 @@
             <h2 class="form-name">Залиште свої дані, ми вам передзвонимо</h2>
               <label class="form-field">
                 <span>Ім'я</span>
-                <input class="form-input" type="tel" name="Ім'я" required />
+                <input class="form-input" type="text" name="Ім'я" required />
                 <svg class="field-icon">
                   <use href="./images/icons.svg#icon-person-black"></use>
                 </svg>
@@ -370,7 +368,7 @@
               </label>
               <label class="form-field">
                 <span>Пошта</span>
-                <input class="form-input" type="tel" name="Пошта" />
+                <input class="form-input" type="email" name="Пошта" />
                 <svg class="field-icon">
                   <use href="./images/icons.svg#icon-email-black"></use>
                 </svg>
@@ -393,23 +391,3 @@
     <script src="./js/modal.js"></script>  
   </body>
 </html>
-
-   
-
-
-
-
-
-
-
-
-
-
-
-                   <!-- <div class="form-field">
-                            <svg class="field-icon">
-                              <use href="./images/icons.svg#icon-person-black"></use>
-                            </svg>
-                          <label for="name">Ім'я</label>
-                          <input type="text" name="Ім'я" id="name" />
-                        </div> -->
